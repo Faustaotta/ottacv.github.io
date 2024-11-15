@@ -1,0 +1,293 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    body{
+        background-color: rgb(228, 226, 226);
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        padding: 0px 84px;
+    }
+
+    header{
+        width: 100%;
+        height: 71px;
+        border-bottom: 2.5px solid rgb(168, 167, 167);
+        background-color: rgba(250, 248, 248, 0.815);
+        position: fixed;
+        top: 0;
+        z-index: 10;
+    }
+
+
+    .header-left span{
+        float: left;
+        font-size: 45px;
+        height: 78px;
+        width: 165.75;
+        margin-top: 10px;
+        color: #4c0b84;
+    }
+
+    .header-right a{
+        text-decoration: none;
+        color:#4c0b84;
+    }
+    .header-right ul {
+        list-style: none;
+        padding:0;
+        margin: 0;
+    
+    }
+
+    .header-right li{
+        float: left;
+        padding-left: 55px;
+        line-height: 71px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .header-right a:hover{
+        color: black;
+        transition: all 1.0ms;
+    }
+
+    .header-right{
+        float: right;
+    }
+
+    .Home{
+        height: 550px;
+        margin-left: 90px;
+    
+    }
+
+    .Home h2{
+        margin-top: 210px;
+        color: #4c0b84;
+        font-size: 55px;
+        font-weight: 200;
+    }
+    .Home h2:hover{
+        color: rgb(76, 89, 34);
+        transition: 0.5ms;
+    }
+
+    .Home h1{
+        color: #4c0b84;
+        font-size: 80px;
+        margin-bottom: 10px;
+        margin-top: 11px;
+        text-align: left;
+    }
+    .Home h3{
+        color: #4c0b84;
+        font-size: 29px;
+        margin-bottom: 10px;
+        margin-top: 11px;
+        text-align: left;
+    }
+
+    .Home p{
+        font-size: 20px;
+        color: rgba(75, 75, 75,0.856);
+        margin-bottom: 3px;
+    }
+    .Home i{
+        padding: 9px;
+        font-size: 38px;
+    }
+    .Home img{
+        float: left;
+        position: relative;
+        top: -340px;
+        height: 350px;
+        margin-left: 750px;
+        margin-top: 30px;
+        box-shadow: 0px 10px 20px rgb(84, 84, 84);
+        border: 2px white;
+        border-radius: 700px;
+    }
+    .info-cv{
+        text-align: center;
+        color: blue;
+        background-color: white;
+        padding: 2rem ;
+        width: 55rem;
+        border-radius: 10px;
+        margin-bottom: 200px;
+        margin-top: 150px;
+        box-shadow: 0px 8px 20px rgb(108, 107, 107);
+    }
+
+    .info-cv h2{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        color: #4c0b84;
+
+    }
+
+    .info-cv p{
+        color: rgba(75, 75, 75,0.856);
+        font-size: 23px;
+    }
+
+    .container .kiri, .tengah, .kanan {
+        border: 2px solid rgb(249, 245, 245);
+        border-radius: 10px;
+        background-color: rgb(247, 250, 250);
+        width: 320px;
+        height: 300px;
+        display: flex;
+        margin: 10px;
+        padding: 10px;
+        margin-right: 10px;
+        margin-top: 15px;
+        box-shadow: 0px 8px 20px rgb(121, 121, 121);
+    }
+    .Education .container{
+        display: flex;
+    }
+
+    .Education  {
+        text-align: center;
+    }
+    .tengah, .kiri, .kanan{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Education h2{
+        font-size: 2rem;
+        margin-top: 9rem;
+        margin-bottom: 2rem;
+        color: #4c0b84;
+    }
+    .kiri, .tengah, .kanan p{
+        color: rgba(3, 3, 3, 0.856);
+        font-size: 19px;
+    }
+    .border-organisai{
+        border: 2px solid rgb(254, 254, 254);
+        border-radius: 10px;
+        background-color: rgb(247, 250, 250);
+        position: relative;
+        width: 700px;
+        height: 300px;
+        display: flex;
+        margin: 258px;
+        padding: 20px;
+        margin-right: 10px;
+        margin-top: 100px;
+        margin-bottom: 18px;
+        box-shadow: 0px 8px 20px rgb(121, 121, 121);
+    }
+    .Organisasi .container5{
+        display:  flex;
+    }
+    .Organisasi{
+        text-align: center;
+    }
+    .Organisasi h2{
+        font-size: 2rem;
+        margin-top: 12rem;
+        margin-bottom: -4rem;
+        color: #4c0b84;
+    }
+    .Organisasi img{
+        width: 270px;
+        height: 245px;/
+    }
+    .Organisasi p{
+        color: rgba(75, 75, 75,0.856);
+        font-size: 23px;
+        margin-top: 120px;
+    }
+    .skills-section {
+        width: 300px;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 8px 20px rgb(121, 121, 121);
+        margin-left: 480px;
+        margin-top: 200px;
+    }
+
+    .skills-section h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #4c0b84;
+    }
+
+    .skill {
+        margin-bottom: 15px;
+    }
+
+    .skill p {
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #555;
+    }
+
+    .skill-bar {
+        background-color: #e0e0e0;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .skill-level {
+        height: 10px;
+        background-color: #4CAF50;
+        border-radius: 5px;
+    }
+    .epep{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Contact h2{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        color: #4c0b84;
+        text-align: center;
+        margin-top: 4rem;
+    }
+    .container10 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 50px;
+        background: white;
+        padding: 3rem;
+        border-radius: 10px;
+        box-shadow: 0 10px 0;
+        margin-bottom: 100px;
+        transition: transform 0.1s, box-shadow 0.1s; /* Smooth transition */
+    }
+
+    .container10:hover {
+        border: #4c0b84;
+        color: #4c0b84;
+    }
+
+    .container10:active {
+        transform: translateY(10px);
+        box-shadow: 0 1px 0; 
+        border-color: #4c0b84;
+        -webkit-box-shadow: 0px 0px 0px 3px #4c0b84;
+    }
+   
+
+
+
+
